@@ -12,7 +12,7 @@ markdown: kramdown
 #highlighter: rouge
 
 #Github URL
-github_ghpages: "https://github.com/IJCKGconference/IJCKG2023/blob/gh-pages"
+github_ghpages: "https://github.com/IJCKGconference/IJCKG2023/blob/main"
 
 offline: false
 
