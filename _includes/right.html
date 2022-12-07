@@ -1,0 +1,77 @@
+<div class="wrapper">
+
+
+   <!-- ####################### Sub Menu ########################### -->
+
+
+   {% include submenu.html %}
+
+
+   <!-- ####################### News ########################### -->
+
+
+   <!-- ####################### Sponsors ########################### -->
+
+
+   {% include sponsors.html %}
+   <!--
+<a href="{{ site.baseurl }}/pages/sponsorship.html" class="btn btn-primary btn-block active" role="button">Become a Sponsor</a>
+-->
+   <hr />
+
+   <!-- ####################### Widgets ########################### -->
+   <!-- add false for network -->
+
+   {% if false and page.group == "attending" %}
+   {% include yen-exchange.html %}
+   <hr />
+   {% endif %}
+
+   {% if false and (page.group == "calls" or page.group == "deadline") %}
+   {% include clocks-hawii.html %}
+   <hr />
+   {% endif %}
+
+   {% if false and (page.group == "program" or page.group == "attending") %}
+   {% include clocks-jp.html %}
+   <hr />
+   {% endif %}
+
+
+   <!-- ####################### Organizers ########################### -->
+
+   <div class="allign-left">
+      {% include organizers.html %}
+   </div>
+   <!--
+   <hr />
+-->
+
+   <!-- ####################### TWITTER ########################### -->
+   <!--
+   <div class="allign-center">
+      <div class="list-group-item">
+         <a class="twitter-timeline" data-height="500" href="https://twitter.com/jist2018?ref_src=twsrc%5Etfw">Tweets by
+            jist2018</a>
+         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+   </div>
+
+   <hr />
+   -->
+
+
+
+   <!-- ####################### Artworks ########################### -->
+
+   <!--
+<div class="allign-center">
+	<div class="list-group-item">
+		<a href="{{ site.baseurl }}/pages/misc/artworks.html" class="" style="color:black">
+			Link to Artworks
+		</a>
+	</div>
+</div>
+-->
+
+   <!-- ####################### END ########################### -->

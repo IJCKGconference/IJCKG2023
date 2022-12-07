@@ -1,0 +1,20 @@
+# Site settings
+title: IJCKG2023
+email: 
+description: The 12th International Joint Conference on Knowledge Graphs (IJCKG 2023)</b> is a premium academic forum on Knowledge Graphs. IJCKG2023 will take place from December 8 to 9, 2023 in the Miraikan - The National Museum of Emerging Science and Innovation, Tokyo, Japan.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ijckg.org" # the base hostname & protocol for your site
+twitter_username: ijckg2023
+github_username: IJCKGconference
+
+# Build settings
+markdown: kramdown
+#highlighter: rouge
+
+#Github URL
+github_ghpages: "https://github.com/IJCKGconference/IJCKG2023/blob/gh-pages"
+
+offline: false
+
+#plugins:
+#  - jekyll-redirect-from
