@@ -1,11 +1,11 @@
 <header>
   <div id="iswc-banner-default" class="hidden-xs force-print-yes">
     <a href="{{ site.baseurl }}/index.html">
-   <!--
+      <!--
       <h1>The 12th International Joint Conference On Knowledge Graphs
         (IJCKG 2023)</h1>
       -->
-     <img src="{{ site.baseurl }}/images/header/IJCKG2023-header.png" width="100%"/>
+      <img src="{{ site.baseurl }}/images/header/IJCKG2023-header.png" width="100%" />
     </a>
   </div>
 
@@ -47,7 +47,9 @@
               <a href="{{ site.baseurl }}/pages/calls.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
                 aria-haspopup="true" aria-expanded="false">
                 Calls
+                <span class="caret"></span>
               </a>
+              {% assign nav_group = "calls" %} {% include subnav.html %}
             </li>
 
             <li><a href="{{ site.baseurl }}/pages/important-dates.html">Important Dates</a></li>
