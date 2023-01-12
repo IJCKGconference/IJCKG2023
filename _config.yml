@@ -1,9 +1,9 @@
 # Site settings
 title: IJCKG2023
 email: 
-description: The 12th International Joint Conference on Knowledge Graphs (IJCKG 2023)</b> is a premium academic forum on Knowledge Graphs. IJCKG2023 will take place from December 8 to 9, 2023 in the Miraikan - The National Museum of Emerging Science and Innovation, Tokyo, Japan.
-baseurl: "/IJCKG2023" # the subpath of your site, e.g. /blog/
-url: "http://ijckg.org" # the base hostname & protocol for your site
+description: The 12th International Joint Conference on Knowledge Graphs (IJCKG 2023)</b> is a premium academic forum on Knowledge Graphs. IJCKG2023 will take place from December 8 to 9, 2023 in Miraikan - The National Museum of Emerging Science and Innovation, Tokyo, Japan.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ijckg2023.knowledge-graph.jp." # the base hostname & protocol for your site
 twitter_username: ijckg2023
 github_username: IJCKGconference
 
