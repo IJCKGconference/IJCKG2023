@@ -69,7 +69,9 @@
               <a href="{{ site.baseurl }}/pages/attending.html" class="dropdown-toggle" data-toggle="dropdown"
                 role="button" aria-haspopup="true" aria-expanded="false">
                 Attending
+                <span class="caret"></span>
               </a>
+              {% assign nav_group = "attending" %} {% include subnav.html %}
             </li>
 
             <li class="dropdown">
